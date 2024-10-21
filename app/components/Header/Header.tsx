@@ -8,7 +8,7 @@ const Header: React.FC = () => {
     <nav className='bg-yellow-500 h-19 py-2 px-8 rounded-3xl flex gap-3 justify-between items-center'>
       <div>
         <h1 className='text-2xl font-semibold'>
-          <Link href="/">AH5AN'S</Link>
+          <Link href="#home">AH5AN'S</Link>
         </h1>
       </div>
       <div>
