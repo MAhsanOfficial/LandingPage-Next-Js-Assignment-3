@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      gridTemplateColumns:{
+        "fluid":"repeat(auto-fit,minmax(300px,1fr))"
+       },
     },
   },
   plugins: [],
