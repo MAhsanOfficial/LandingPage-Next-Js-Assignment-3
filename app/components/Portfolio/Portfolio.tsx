@@ -99,7 +99,6 @@
 import Image from "next/image";
 import React from "react";
 
-// Define the type of props expected by the Portfolio component
 interface PortfolioProps {
   houseUrl: string;
   type: string;
@@ -109,7 +108,6 @@ const Portfolio: React.FC<PortfolioProps> = ({ houseUrl, type }) => {
   return (
     <section id="portfolio">
     <div className="relative group">
-      {/* image div below */}
       <div className="relative w-full h-80">
         <Image
           src={houseUrl}
@@ -120,7 +118,6 @@ const Portfolio: React.FC<PortfolioProps> = ({ houseUrl, type }) => {
         />
       </div>
 
-      {/* overlay div below */}
       <div
         className="bg-black bg-opacity-50 absolute bottom-0 right-0 left-0 h-0 overflow-hidden 
         group-hover:h-full transition-all duration-500 flex justify-center items-center"

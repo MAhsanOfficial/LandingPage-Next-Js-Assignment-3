@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <>
     <section id='about'>
       <div className="max-w-[1320px] md:py-[80px] py-5 flex mx-auto sm:flex-row flex-col">
-        {/* Image section */}
+
         <div className="basis-[45%] pb-5">
           <img src="https://i.pinimg.com/736x/29/6d/cd/296dcdbd03d450dfda7ffc92232b08b8.jpg" alt=""  className='w-full '/>
         </div>

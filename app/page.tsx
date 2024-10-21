@@ -70,7 +70,7 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 
-// get some data array
+// get some data array in portfolio cards
 const houseData = [
   {
     id: 1,
