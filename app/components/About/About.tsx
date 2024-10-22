@@ -8,7 +8,6 @@ const About: React.FC = () => {
         <div className="max-w-[1320px] md:py-[80px] py-5 flex mx-auto sm:flex-row flex-col">
 
           <div className="basis-[45%] pb-5 relative">
-            {/* Use width and height or layout="fill" for external images */}
             <Image 
               src="https://i.pinimg.com/736x/29/6d/cd/296dcdbd03d450dfda7ffc92232b08b8.jpg" 
               alt="Ahsan's profile"  
